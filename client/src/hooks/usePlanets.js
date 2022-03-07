@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from 'react';
 
-import { httpGetPlanets } from "./requests";
+import { httpGetPlanets } from './requests';
 
 function usePlanets() {
   const [planets, savePlanets] = useState([]);
